@@ -1,0 +1,19 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["api", "rest", "fibonacci", "prime", "lcm", "hcf", "ai"],
+  "author": "",
+  "license": "ISC",
+  "description": "REST API with mathematical operations and AI integration",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
